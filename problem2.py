@@ -26,3 +26,13 @@ Enter a number: 4
 Enter another number: 25
 4 is not a factor of 25
 """
+x = int(input("Enter an integer"))
+y = int(input("Enter an integer"))
+lst= [x,y]
+z=max(lst)
+d=min(lst)
+f=z/d
+if z/d == int(f):
+    print(f"{d} is a factor of {z}")
+else:
+    print(f"{d} is not a factor of {z}")

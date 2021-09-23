@@ -26,3 +26,10 @@ Enter a number: 16
 16 is not frue
 """
 
+x = float(input("Enter a number"))
+y= x/6
+z= x/8
+if x/6 == int(y) and x/8 != int(z):
+    print(f"{x} is frue")
+else:
+    print(f"{x} is not frue")

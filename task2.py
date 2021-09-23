@@ -31,3 +31,16 @@ Enter a number: 8
 Enter a number: 64
 64 is both a perfect square and a perfect cube.
 """
+x = float(input("Enter a number=>"))
+y= x**(1/2)
+z = round(y,3)
+e= x**(1/3)
+g= round(e, 3)
+print(z,y,g,e)
+if z == int(y) and g == int(round(e,8)):
+    print(f"{x} is both a perfect square and a perfect cube.") 
+else:
+    if z == int(y):
+        print("is only a perfect square.")
+    else:
+        print("is only a perfect cube.")
