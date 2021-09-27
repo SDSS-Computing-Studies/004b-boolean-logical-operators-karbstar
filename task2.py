@@ -41,6 +41,6 @@ if z == int(y) and g == int(round(e,8)):
     print(f"{x} is both a perfect square and a perfect cube.") 
 else:
     if z == int(y):
-        print("is only a perfect square.")
+        print(f"{x} is only a perfect square.")
     else:
-        print("is only a perfect cube.")
+        print(f"{x} is only a perfect cube.")

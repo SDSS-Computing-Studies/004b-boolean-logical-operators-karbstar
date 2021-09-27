@@ -34,11 +34,11 @@ x = int(input("Enter an integer=>"))
 y = int(input("Enter an integer=>"))
 z = int(input("Enter an integer=>"))
 
-lst=(x,y,z)
+lst= x,y,z
 d=max(lst)
 r=min(lst)
 s=(x+y+z)-d-r
 if r**2 +s**2 == d**2:
-    print(f"{lst} form a Pythagorean triple")
+    print(f"{x,y,z} form a Pythagorean triple")
 else:
-    print(f"{lst} do not form a Pythagorean triple")
+    print(f"{x,y,z} do not form a Pythagorean triple")
