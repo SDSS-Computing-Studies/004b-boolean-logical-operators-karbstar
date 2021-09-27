@@ -39,6 +39,6 @@ d=max(lst)
 r=min(lst)
 s=(x+y+z)-d-r
 if r**2 +s**2 == d**2:
-    print(f"{x},{y},{z} form a Pythagorean triple")
+    print(f"{x},{z},{y} form a Pythagorean triple")
 else:
     print(f"{x},{y},{z} do not form a Pythagorean triple")
